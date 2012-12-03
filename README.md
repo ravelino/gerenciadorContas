@@ -1,9 +1,7 @@
 gerenciadorContas
 =================
-
-gerenciador de contas
-
+Jboss AS 7.1.1
 EJB 3.1
 Maven 3
 JSF 2
-primefaces 3.4.1
+Primefaces 3.4.1
