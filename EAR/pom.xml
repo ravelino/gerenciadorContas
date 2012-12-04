@@ -44,11 +44,11 @@
 					<displayName>gerenciador</displayName>
 					<modules>
 						<ejbModule>
-							<groupId>EAR</groupId>
+							<groupId>gerenciador-ejb</groupId>
 							<artifactId>Business</artifactId>
 						</ejbModule>
 						<webModule>
-							<groupId>EAR</groupId>
+							<groupId>gerenciador-web</groupId>
 							<artifactId>WEB</artifactId>
 							<contextRoot>/gerenciador</contextRoot>
 						</webModule>
@@ -62,14 +62,14 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>EAR</groupId>
+			<groupId>gerenciador-ejb</groupId>
 			<artifactId>Business</artifactId>
 			<version>1.0</version>
 			<type>ejb</type>
 		</dependency>
 		
 		<dependency>
-			<groupId>EAR</groupId>
+			<groupId>gerenciador-web</groupId>
 			<artifactId>WEB</artifactId>
 			<version>1.0</version>
 			<type>war</type>

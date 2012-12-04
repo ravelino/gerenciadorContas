@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.gerenciador</groupId>
 	<artifactId>GerenciadorContas</artifactId>
@@ -40,24 +40,21 @@
 				<groupId>org.jboss.as.plugins</groupId>
 				<artifactId>jboss-as-maven-plugin</artifactId>
 				<version>7.1.1.Final</version>
-				 <configuration>
+				<configuration>
 					<hostname>localhost</hostname>
 					<port>9999</port>
 					<!-- <filename>/EAR-${project.version}.ear</filename> -->
 				</configuration>
-				<!-- <configuration>
-					<hostname>localhost</hostname>
-					<port>9999</port>
-					<filename>gerenciador.ear</filename>
-				</configuration> -->
+				<!-- <configuration> <hostname>localhost</hostname> <port>9999</port> 
+					<filename>gerenciador.ear</filename> </configuration> -->
 				<executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -71,8 +68,8 @@
 
 		<repository>
 			<id>prime-repo</id>
-			<name>Prime Technology Maven Repository</name>
-			<url>http://repository.prime.com.tr</url>
+			<name>PrimeFaces Maven Repository</name>
+			<url>http://repository.primefaces.org</url>
 			<layout>redmond</layout>
 		</repository>
 	</repositories>
@@ -93,5 +90,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	
+
 </project>

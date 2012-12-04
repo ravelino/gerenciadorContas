@@ -8,11 +8,12 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>EAR</groupId>
+	<groupId>gerenciador-ejb</groupId>
 	<artifactId>Business</artifactId>
 	<name>Business</name>
 	<description>camada de negocio</description>
 	<version>1.0</version>
+	<!-- <packaging>jar</packaging> -->
 
 	<build>
 		<plugins>
@@ -56,6 +57,4 @@
 			<version>4.11</version>
 		</dependency>
 	</dependencies>
-
-	
 </project>

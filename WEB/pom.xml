@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>EAR</groupId>
+	<groupId>gerenciador-web</groupId>
 	<artifactId>WEB</artifactId>
 	<packaging>war</packaging>
 	<description>camada frontend</description>
@@ -17,12 +17,12 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>EAR</groupId>
+			<groupId>gerenciador-ejb</groupId>
 			<artifactId>Business</artifactId>
 			<version>1.0</version>
 			<type>jar</type>
 		</dependency>
-
+ 
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
